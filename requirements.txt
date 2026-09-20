@@ -1,0 +1,6 @@
+pyrogram==2.0.106
+tgcrypto==1.2.5
+qrcode==7.4.2
+pillow==10.3.0
+pyzbar==0.1.9
+aiohttp==3.9.5

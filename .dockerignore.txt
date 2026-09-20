@@ -1,9 +1,8 @@
-__pycache__/
-*.pyc
+__pycache__
 *.session
 *.session-journal
 data/
 bot1_data/
 bot2_data/
-*.tmp
-.env
+.git
+*.md

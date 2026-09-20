@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: multi-saver-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: BOT1_TOKEN
+        sync: false
+      - key: BOT2_TOKEN
+        sync: false
+      - key: SRC_TRACKER_CHANNEL
+        value: "-1003820634243"
